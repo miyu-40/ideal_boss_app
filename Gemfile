@@ -65,3 +65,7 @@ group :development do
   # gem "spring"
 end
 
+group :production do
+  # Use PstgreSQL as the database for Active Record
+  gem 'pg'
+end
